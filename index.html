@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>I2TC Solutions FZ-LLC | Technology Solutions</title>
     <meta name="description" content="I2TC Solutions FZ-LLC is a UAE-based technology company focused on developing practical digital products and technology solutions." />
@@ -12,9 +12,142 @@
     <meta property="og:image" content="https://bolt.new/static/og_default.png">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content="https://bolt.new/static/og_default.png">
-</head>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <div class="flex-col">
+      <!-- Header -->
+      <header class="site-header">
+        <div class="container">
+          <div class="header-inner">
+            <a href="index.html" class="logo">
+              <span class="logo-text">I2TC</span>
+              <span class="logo-sub">Solutions FZ-LLC</span>
+            </a>
+            <nav class="desktop-nav">
+              <a href="index.html" class="active">Home</a>
+              <a href="products.html">Products</a>
+              <a href="contact.html">Contact</a>
+            </nav>
+            <button type="button" class="menu-btn" aria-label="Open menu">
+              <svg class="icon-svg menu-icon-open" width="24" height="24" viewBox="0 0 24 24"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+              <svg class="icon-svg menu-icon-close" width="24" height="24" viewBox="0 0 24 24" style="display:none"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+            </button>
+          </div>
+        </div>
+        <div class="mobile-nav">
+          <nav>
+            <a href="index.html" class="active">Home</a>
+            <a href="products.html">Products</a>
+            <a href="contact.html">Contact</a>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <!-- Hero -->
+        <section class="hero">
+          <div class="hero-accent" aria-hidden="true">
+            <div class="line-bottom"></div>
+            <div class="line-right"></div>
+          </div>
+          <div class="hero-layers" aria-hidden="true">
+            <svg class="icon-svg" width="320" height="320" viewBox="0 0 24 24" stroke-width="0.75"><path d="m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z"/><path d="m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65"/><path d="m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65"/></svg>
+          </div>
+          <div class="hero-content">
+            <div class="hero-text">
+              <h1>Technology built around<br><span class="highlight">real-world needs.</span></h1>
+              <p>I2TC Solutions FZ-LLC is a UAE-based technology company focused on developing practical digital products and technology solutions.</p>
+              <div class="hero-buttons">
+                <a href="products.html" class="btn btn-primary">
+                  Our Products
+                  <svg class="icon-svg" width="16" height="16" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                </a>
+                <a href="contact.html" class="btn btn-outline">Get in touch</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Capabilities -->
+        <section class="section-white">
+          <div class="container">
+            <div class="capabilities-grid">
+              <div class="capability">
+                <div class="icon-box">
+                  <svg class="icon-svg" viewBox="0 0 24 24"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/><path d="M9 18h6"/><path d="M10 22h4"/></svg>
+                </div>
+                <h3>Technology &amp; Project Solutions</h3>
+                <p>Combining technology expertise with project-focused consultancy to help businesses plan and implement practical solutions.</p>
+              </div>
+              <div class="capability">
+                <div class="icon-box">
+                  <svg class="icon-svg" viewBox="0 0 24 24"><path d="m18 16 4-4-4-4"/><path d="m6 8-4 4 4 4"/><path d="m14.5 4-5 16"/></svg>
+                </div>
+                <h3>Software Development</h3>
+                <p>Designing and developing practical software solutions and digital products.</p>
+              </div>
+              <div class="capability">
+                <div class="icon-box">
+                  <svg class="icon-svg" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+                </div>
+                <h3>Digital Solutions</h3>
+                <p>Web and mobile products that simplify processes and improve everyday workflows.</p>
+              </div>
+              <div class="capability">
+                <div class="icon-box">
+                  <svg class="icon-svg" viewBox="0 0 24 24"><rect width="8" height="4" x="8" y="2" rx="1" ry="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="M12 11h4"/><path d="M12 16h4"/><path d="M8 11h.01"/><path d="M8 16h.01"/></svg>
+                </div>
+                <h3>Project Management Consultancy</h3>
+                <p>Providing project management consultancy to support structured planning, coordination and delivery.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- About -->
+        <section class="section-off">
+          <div class="container">
+            <div class="about-grid">
+              <div>
+                <p class="about-label">About</p>
+                <h2 class="about-title">I2TC</h2>
+                <p class="about-subtitle">A technology company with a practical approach.</p>
+                <p class="about-text">I2TC Solutions FZ-LLC is established in Ras Al Khaimah, United Arab Emirates. We focus on developing practical technology and digital products that address genuine needs and deliver measurable value.</p>
+              </div>
+              <div class="about-image">
+                <img src="https://images.pexels.com/photos/8319486/pexels-photo-8319486.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Aerial view of a UAE city skyline with a national flag at sunset" loading="lazy" />
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- Footer -->
+      <footer class="site-footer">
+        <div class="footer-inner">
+          <div class="footer-grid">
+            <div class="footer-brand">
+              <span class="footer-logo">I2TC</span>
+              <p class="footer-tagline">Technical &amp; Technology Consultancy</p>
+            </div>
+            <div>
+              <h4 class="footer-heading">Navigation</h4>
+              <nav class="footer-nav-links">
+                <a href="index.html">Home</a>
+                <a href="products.html">Products</a>
+                <a href="contact.html">Contact</a>
+              </nav>
+            </div>
+            <div>
+              <h4 class="footer-heading">Location</h4>
+              <p class="footer-location">Ras Al Khaimah<br>United Arab Emirates</p>
+            </div>
+          </div>
+          <p class="footer-copy">&copy; 2026 I2TC Solutions FZ-LLC. All rights reserved.</p>
+        </div>
+      </footer>
+    </div>
+    <script src="js/main.js"></script>
   </body>
 </html>
