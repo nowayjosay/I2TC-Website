@@ -663,6 +663,10 @@ ul {
   }
 }
 
+.products-header-text h1 .highlight {
+  color: var(--brand-bright);
+}
+
 .products-header-text p {
   margin-top: 1.5rem;
   font-size: 1rem;
