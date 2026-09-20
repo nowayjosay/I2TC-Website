@@ -625,22 +625,22 @@ ul {
 }
 
 .products-eyebrow {
-  font-size: 1.875rem;
+  font-size: 5.625rem;
   font-weight: 700;
   letter-spacing: 0.2em;
   color: var(--brand);
-  margin-bottom: 2rem;
+  margin-bottom: 6rem;
 }
 
 @media (min-width: 640px) {
   .products-eyebrow {
-    font-size: 2.25rem;
+    font-size: 6.75rem;
   }
 }
 
 @media (min-width: 1024px) {
   .products-eyebrow {
-    font-size: 3rem;
+    font-size: 9rem;
   }
 }
 
